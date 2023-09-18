@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className=" ">
       <div className="relative z-50">
-        <div className="absolute">
+        <div className="absolute left-1/2 transform translate-x-[-50%]">
           <Navbar />
         </div>
       </div>

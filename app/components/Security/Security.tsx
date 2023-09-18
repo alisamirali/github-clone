@@ -232,12 +232,12 @@ const Security = (props: Props) => {
                 onMouseEnter={() => setHovered(true)}
                 onMouseLeave={() => setHovered(false)}
                 href=""
-                className="py-1 inline-block text-xl text-white font-semibold"
+                className="py-1 inline-block text-lg md:text-xl text-white font-semibold"
               >
-                Invest With GitHub Sponsers
+                Invest With GitHub Sponsors
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className={` mb-[2px] text-white transition inline-block ml-3 ease-in duration-300  ${
+                  className={` mb-[2px] text-white transition inline-block ml-1 ease-in duration-300  ${
                     hovered ? "translate-x-0 " : "-translate-x-1"
                   }`}
                   width="20"
@@ -299,12 +299,12 @@ const Security = (props: Props) => {
                 onMouseEnter={() => setHovered1(true)}
                 onMouseLeave={() => setHovered1(false)}
                 href=""
-                className="py-1 inline-block text-xl text-white font-semibold"
+                className="py-1 inline-block text-lg md:text-xl text-white font-semibold"
               >
                 Explore Dependabot
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className={` mb-[2px] text-white transition inline-block ml-3 ease-in duration-300  ${
+                  className={` mb-[2px] text-white transition inline-block ml-1 ease-in duration-300  ${
                     hovered1 ? "translate-x-0 " : "-translate-x-1"
                   }`}
                   width="20"
@@ -359,12 +359,12 @@ const Security = (props: Props) => {
                 onMouseEnter={() => setHovered2(true)}
                 onMouseLeave={() => setHovered2(false)}
                 href=""
-                className="py-1 inline-block text-xl text-white font-semibold"
+                className="py-1 inline-block text-lg md:text-xl text-white font-semibold"
               >
                 Download the latest SAST ebook
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className={` mb-[2px] text-white transition inline-block ml-3 ease-in duration-300  ${
+                  className={` mb-[2px] text-white transition inline-block ml-1 ease-in duration-300  ${
                     hovered2 ? "translate-x-0 " : "-translate-x-1"
                   }`}
                   width="20"

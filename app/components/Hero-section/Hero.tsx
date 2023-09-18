@@ -140,7 +140,7 @@ const Hero = (props: Props) => {
                 </dl>
                 <button
                   type="button"
-                  className="mb-10 md:mb-0 py-3 w-full md:w-fit px-10 home-campaign-signup-button text-[16px] max-md:rounded-md md:rounded-e-md text-white font-semibold"
+                  className="mb-10 md:mb-0 py-3 w-full md:w-fit px-8 home-campaign-signup-button text-[16px] max-md:rounded-md md:rounded-e-md text-white font-semibold"
                 >
                   Sign up for GitHub
                 </button>

@@ -96,7 +96,7 @@ const Productivity = (props: Props) => {
                   Discover GitHub Actions
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className={` text-white transition inline-block ml-3 ease-in duration-300 mb-[3px] ${
+                    className={` text-white transition inline-block ml-1 ease-in duration-300 mb-[3px] ${
                       hovered ? "translate-x-0 " : "-translate-x-1"
                     }`}
                     width="20"
@@ -160,7 +160,7 @@ const Productivity = (props: Props) => {
                   Get GitHub Mobile
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className={` text-white transition inline-block ml-3 ease-in duration-300 mb-[3px] ${
+                    className={` text-white transition inline-block ml-1 ease-in duration-300 mb-[3px] ${
                       hovered1 ? "translate-x-0 " : "-translate-x-1"
                     }`}
                     width="20"

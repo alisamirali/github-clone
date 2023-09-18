@@ -75,7 +75,7 @@ const CodeSpace = (props: Props) => {
                 Check out GitHub Codespaces
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className={` mb-[2px] text-white transition inline-block ml-2 ease-in duration-300  ${
+                  className={` mb-[2px] text-white transition inline-block ml-1 ease-in duration-300  ${
                     hovered ? "translate-x-0 " : "-translate-x-1"
                   }`}
                   width="20"

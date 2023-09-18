@@ -113,9 +113,9 @@ const StickyNav = () => {
               onClick={() => setSmallNav(false)}
               onMouseEnter={() => setproduct1(true)}
               onMouseLeave={() => setproduct1(false)}
-              className={` max-lg:pt-2  ${product1 ? "lg:font-bold" : ""}  ${
+              className={` max-lg:py-2  ${product1 ? "lg:font-bold" : ""}  ${
                 product || smallNav
-                  ? "lg:font-bold max-lg:pb-6"
+                  ? "lg:font-bold max-lg:pb-2"
                   : "max-lg:hidden"
               } `}
             >
